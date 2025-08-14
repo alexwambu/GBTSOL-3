@@ -5,7 +5,7 @@ from web3 import Web3
 from solcx import install_solc, compile_source
 
 # --- Config via env ---
-RPC_URL = os.getenv("RPC_URL", "https://gbtnetwork-render.onrender.com")
+RPC_URL = os.getenv("RPC_URL", "https://gbtnetwork-render-h1ij.onrender.com")
 PRIVATE_KEY = os.getenv("PRIVATE_KEY")  # 0x...
 CHAIN_ID = int(os.getenv("CHAIN_ID", "999"))
 PRICE_FEED = os.getenv("PRICE_FEED", "0x0000000000000000000000000000000000000000")  # set your Chainlink feed if any
