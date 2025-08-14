@@ -6,7 +6,7 @@ services:
     startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
     envVars:
       - key: RPC_URL
-        value: https://gbtnetwork-render.onrender.com
+        value: https://gbtnetwork-render-h1ij.onrender.com
       - key: CHAIN_ID
         value: "999"
       - key: PRICE_FEED
